@@ -59,7 +59,7 @@ bem como os acessos a buffers partilhados entre o processo pai e os processos fi
 python3 pgrepwc.py [-a] [-c|-l] [-p n] [-w s] [-o file] {palavras} [-f ficheiros]
 ```
 
-### Adicionalmente
+## Adicionalmente
 
 * **hpgrepwc**: Lê o histórico de uma execução do programa pgrepwc guardada em file
 
