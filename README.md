@@ -24,7 +24,7 @@ ou qualquer outra variante case-insensitive da palavra (ex., SisTemaS). No entan
 caracteres especiais que antecedem ou precedem a palavra (ex., sistemas!). 
 
 Caso o número de processos definidos por n, pela opção -p, seja maior do que o número de ficheiros a
-processar, o programa terá de dividir o conteúdo dos ficheiros pelos processos e sincronizar os processos ao acesso
+processar, o programa divide o conteúdo dos ficheiros pelos processos e sincronizar os processos ao acesso
 aos ficheiros, quando, por exemplo, dois processos estão a processar um mesmo ficheiro. Por exemplo, se o n for
 igual a 3 e o número de ficheiros for igual a 5 (f1 a f5), uma possível distribuição dos ficheiros pelos processos
 será a seguinte: o 1º processo processa 2 ficheiros (f1 e f2); o 2º processo processa o ficheiro f3 e metade do
@@ -32,8 +32,8 @@ ficheiro f4; o 3º processo processa a outra metade do ficheiro f4 e o ficheiro 
 ficheiros pelos processos é da responsabilidade do grupo de trabalho. A distribuição dos ficheiros (ou conteúdo 
 destes) pelos processos deverá ser a mais equitativa possível. 
 
-Caso o processo pai receba o sinal SIGINT (i.e., CTRL+C), o processamento dos ficheiros deve terminar
-corretamente, isto é, os processos devem concluir o processamento nos ficheiros correntes e terminar de seguida.
+Caso o processo pai receba o sinal SIGINT (i.e., CTRL+C), o processamento dos ficheiros termina
+corretamente, isto é, os processos concluem o processamento nos ficheiros correntes e terminar de seguida.
 Por seu turno, o processo pai escreve para stdout o número de ocorrências encontradas de cada a palavra a pesquisar
 ou o número de linhas onde cada palavra foi encontrada até ao momento, considerando apenas os ficheiros que
 foram processados pelos processos. 
@@ -49,7 +49,7 @@ decorrido desde o início da execução do programa (em micro-segundos).
 conteúdo do ficheiro file deve ser armazenado em binário. A informação guardada neste ficheiro deve ser a que é
 necessária para a execução do comando hpgrepwc.
 
-Todas os acessos a zonas de memória partilhada, tanto para escrita como para leitura, terão de ser devidamente
+Todas os acessos a zonas de memória partilhada, tanto para escrita como para leitura, são devidamente
 sincronizados para evitar erros e outputs inesperados. Assim, os acessos por vários processos ao mesmo ficheiro,
 bem como os acessos a buffers partilhados entre o processo pai e os processos filhos terão de ser sincronizados.
 
