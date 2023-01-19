@@ -2,8 +2,8 @@
     <img src="https://e7.pngegg.com/pngimages/986/627/png-clipart-computer-icons-system-integration-others-miscellaneous-business-process.png" alt="Logo" width="80" height="80">
 </p>
 
-# <h1 align="center">Pesquisa as linhas dos ficheiros</h3>
-<h4 align="center">Projeto para a cadeira de Sistemas Operativos (Parte2) (2021/2022)</h5>
+# <h1 align="center">Pesquisa as linhas dos ficheiros</h1>
+<h4 align="center">Projeto para a cadeira de Sistemas Operativos (Parte2) (2021/2022)</h4>
 
 <hr>
 
