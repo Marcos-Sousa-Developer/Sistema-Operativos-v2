@@ -63,7 +63,7 @@ python3 pgrepwc.py [-a] [-c|-l] [-p n] [-w s] [-o file] {palavras} [-f ficheiros
 
 * **hpgrepwc**: Lê o histórico de uma execução do programa pgrepwc guardada em file
 
-###### *Run it on terminal** 
+**Run it on terminal** 
 ```bash
 python3 hpgrepwc.py file
 ```
