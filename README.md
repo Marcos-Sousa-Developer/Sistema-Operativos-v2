@@ -17,7 +17,7 @@ Continuação da realização do trabalho de programação em Python envolvendo 
 Este trabalho pretende estender o comando pgrepwc (versão desenvolvida com processos, na 1ª Fase trabalho de projeto de avaliação) com algumas funcionalidades adicionais. <br>
 **Para aceder a 1ªFase, <a href="https://github.com/Marcos-Sousa-Developer/Sistema_Operativos_v1"> clique aqui!</a>**
 
-A pesquisa das palavras nesta fase do projeto é case-sensitive, ou seja, o resultado da pesquisa deve ser o mais
+A pesquisa das palavras nesta fase do projeto é case-sensitive, ou seja, o resultado da pesquisa é o mais
 restrito e preciso de acordo com as palavras a pesquisar. Por exemplo, se queremos pesquisar a palavra “sistemas”,
 as linhas devolvidas e ocorrências contabilizadas são todas as que contêm a palavra “sistemas”, e não “Sistemas”
 ou qualquer outra variante case-insensitive da palavra (ex., SisTemaS). No entanto, mantem-se os resultados com
