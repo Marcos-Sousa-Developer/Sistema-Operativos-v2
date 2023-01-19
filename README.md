@@ -54,7 +54,7 @@ sincronizados para evitar erros e outputs inesperados. Assim, os acessos por vá
 bem como os acessos a buffers partilhados entre o processo pai e os processos filhos terão de ser sincronizados.
 
 
-#### *Run it on terminal** 
+#### **Run it on terminal** 
 ```bash
 python3 pgrepwc.py [-a] [-c|-l] [-p n] [-w s] [-o file] {palavras} [-f ficheiros]
 ```
