@@ -45,7 +45,7 @@ de cada palavra ou número de linhas resultantes da pesquisa (independentemente 
 (2) número de ficheiros completamente processados; (3) número de ficheiros em processamento; (4) tempo
 decorrido desde o início da execução do programa (em micro-segundos).
 
-* **-w**: a opção o é opcional e permite definir o ficheiro usado para guardar o histórico da execução do programa. O
+* **-o**: a opção o é opcional e permite definir o ficheiro usado para guardar o histórico da execução do programa. O
 conteúdo do ficheiro file deve ser armazenado em binário. A informação guardada neste ficheiro deve ser a que é
 necessária para a execução do comando hpgrepwc.
 
