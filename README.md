@@ -3,7 +3,7 @@
 </p>
 
 # <h1 align="center">Pesquisa as linhas dos ficheiros</h3>
-<h4 align="center">Projeto para a cadeira de Sistemas Operativos (Parte1) (2021/2022)</h5>
+<h4 align="center">Projeto para a cadeira de Sistemas Operativos (Parte2) (2021/2022)</h5>
 
 <hr>
 
